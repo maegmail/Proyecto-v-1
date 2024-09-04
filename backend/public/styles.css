@@ -1,0 +1,97 @@
+/* styles.css */
+
+header {
+    background-color: #987D9A; /* Fondo para el encabezado */
+    padding: 0;
+    display: flex;
+    justify-content: left;        
+}
+
+.logo img {
+   max-height: 200px;
+   max-width: fit-content;
+}
+
+h1 {
+    color: #333;
+   
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo suave */
+    background-image: url("./imagenes/fondo-onda-blanca-suave_52683-55288.avif"); /* Añade esta línea */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Hace que la imagen cubra toda el área del fondo */
+    background-attachment: fixed; /* Opcional: Hace que la imagen de fondo se fije en su posición mientras se desplaza el contenido */
+}
+
+/* Estilos para los botones de los descriptivos 1 */
+.container {
+    display: flex;
+    align-items: center;
+    margin: 10% 15 ;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos para los botones de los descriptivos 2 */
+.container__botones {
+    width: 250px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 580;
+    text-decoration: none;
+    color: #783e7b;
+    border: 2px solid #333; 
+  }
+
+  .container__botones:hover {
+    background-color: #dcd2dd; /* Color más oscuro al pasar el cursor */
+  }
+
+footer {
+    background-color: #987D9A;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para los formularios */
+.formularios {
+    justify-content: space-between; 
+    align-items: baseline;
+    font-family: "Oswald", sans-serif;
+    color: #333;
+    margin: 3%;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        margin-right: auto;
+    }
+    
+    .back-button {
+        background-color: #BC9F8B;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-left: 500px; /* Espacio entre el logo y el botón */
+    }
+    

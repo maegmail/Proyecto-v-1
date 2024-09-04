@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contexto</title>
+</head>
+
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="imagenes/profesiones.jpg.png" alt="Logo Aplicación">
+            <a href="descriptivos.html" class="back-button">Volver a Inicio</a>
+        </div>
+    </header>
+
+
+    <h1>Contexto del puesto</h1>
+    <div></div>
+    <p>Detalla los ambientes y condiciones de trabajo que afectan el desempeño del puesto.</p>
+    </div>
+
+    <form action="experiencia.html" method="post" class="formularios">
+
+        <p><b>Jornada</b></p>
+        
+        <input type="checkbox" value="diurna">
+        <label for="diurna">Diurna</label>
+
+        <input type="checkbox" value="nocturna">
+        <label for="nocturna">Nocturna</label>
+
+        <p><label for="modalidad">Elige la modalidad:</label> 
+            <select id="modalidad" name="modalidad">
+                <option selected>Tiempo completo</option>
+                <option>Medio tiempo</option>
+                <option>Por horas</option>
+            </select>
+            <label for="Horario">Horario: <input type="text" id="horario">
+            </p>
+                   
+        <p><b>Lugares de trabajo</b></p>
+        
+        <input type="checkbox" value="oficinas">
+        <label for="oficinas">Oficinas</label>
+
+        <input type="checkbox" value="bodegas">
+        <label for="bodegas">Bodegas</label> 
+
+        <input type="checkbox" value="talleres">
+        <label for="talleres">Talleres</label> 
+
+        <input type="checkbox" value="remoto">
+        <label for="remoto">Remoto</label> 
+
+        <input type="checkbox" value="trabajoCampo">
+        <label for="trabajoCampo">Trabajo en campo </label> 
+
+
+        <p><b>Desplazamientos</b></p>
+        <p>¿El desempeño del trabajo implica desplazamientos?</p>
+        
+        <input type="checkbox" value="si">
+        <label for="si">Si</label>
+
+        <input type="checkbox" value="no">
+        <label for="no">No</label>
+
+        <p><b>Nivel de riesgos</b></p>
+        <p><label for="nivelRiesgos">Elige el nivel:</label> 
+            <select id="nivelRiesgos" name="nivelRiesgos">
+                <option> I  </option>
+                <option> II </option>
+                <option> III </option>
+                <option> IV </option>
+                <option> V </option>
+            </select>
+
+        <p><label for="ergonomia">Condiciones ergonómicas: <textarea rows="2" cols="80" id="ergonomia"></textarea></label></p>
+                
+        <br>
+        <br>
+
+        <button type="submit"> Enviar</button>
+    
+        </form>
+    
+    
+    <footer>
+        <p>Aplicación para la creación de descriptivos de puestos de trabajo - Todos los derechos reservados</p> <!-- Información de derechos de autor -->
+    </footer>
+
+</body>
+</html>
